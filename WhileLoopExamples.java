@@ -3,7 +3,13 @@ public class WhileLoopExamples {
     public static void main(String[] args) {
         // Example 1: Roll a dice until a 6 is rolled
         // TODO: Write a while loop that simulates rolling a dice until a 6 is rolled
-
+        int diceRoll=0;
+        int i=0;
+        while (diceRoll!=6){
+            diceRoll=(int)(Math.random()*7);
+            i++;
+        }
+        System.out.println(diceRoll+"      "+i);
         // Example 2: Generate random numbers between 1 and 100 until a number greater than 90 is generated
         // TODO: Write a while loop that generates random numbers between 1 and 100 until a number greater than 90 is generated
 
